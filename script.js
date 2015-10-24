@@ -45,4 +45,4 @@
     // 最後にExtensionを登録する
     ScratchExtensions.register('Simple extension', descriptor, ext);
 
-})({});a
+})({});
