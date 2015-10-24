@@ -12,15 +12,16 @@
     ext.do_domething = function(str) {
     };
 
-    ext.blockTest = function(str){
-        console.log("pushed");
+    ext.greeting = function(str){
+        console.log("Hello");
     };
 
     // ブロックと関数のひも付け
     var descriptor = {
         blocks: [
             [' ', 'do_something %s', 'do_something', 'sample text'],
-            [' ', 'blockTest', 'Hello,ScratchX', "KIRIE"],
+            [' ', 'Hello,World %s', 'greeting', 'KIRIE'],
+            //[' ', 'サイリウムの色を赤色にする', '']
         ]
     };
 
