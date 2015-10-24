@@ -16,12 +16,29 @@
         console.log("Hello");
     };
 
+    ext.changeColor = function(str){
+        switch(str){
+            case "red":
+                console.log("Red");
+                break;
+            case "blue":
+                console.log("blue");
+                break;
+            case "green":
+                console.log("green");
+                break;
+            default:
+                console.log("other color");
+                break;
+        }
+    };
+
     // ブロックと関数のひも付け
     var descriptor = {
         blocks: [
             [' ', 'do_something %s', 'do_something', 'sample text'],
             [' ', 'Hello,World %s', 'greeting', 'KIRIE'],
-            //[' ', 'サイリウムの色を赤色にする', '']
+            [' ', 'サイリウムの色を赤色にする', 'changeColor', ''],
         ]
     };
 
