@@ -38,7 +38,7 @@
         blocks: [
             [' ', 'do_something %s', 'do_something', 'sample text'],
             [' ', 'Hello,World %s', 'greeting', 'KIRIE'],
-            ['h', 'サイリウムの色を赤色にする', 'changeColor'],
+            ['h', 'サイリウムの色を赤色にする', 'changeColor', ' '],
         ]
     };
 
