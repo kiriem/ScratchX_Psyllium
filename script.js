@@ -12,13 +12,19 @@
     ext.do_domething = function(str) {
     };
 
+    ext.blockTest = function(str){
+
+    };
+
     // ブロックと関数のひも付け
     var descriptor = {
         blocks: [
             [' ', 'do_something %s', 'do_something', 'sample text'],
+            [' ', 'blockTest', 'Hello,ScratchX', "KIRIE"],
         ]
     };
 
     // 最後にExtensionを登録する
     ScratchExtensions.register('Simple extension', descriptor, ext);
+
 })({});
