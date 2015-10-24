@@ -13,7 +13,7 @@
     };
 
     ext.blockTest = function(str){
-
+        console.log("pushed");
     };
 
     // ブロックと関数のひも付け
@@ -27,4 +27,4 @@
     // 最後にExtensionを登録する
     ScratchExtensions.register('Simple extension', descriptor, ext);
 
-})({});
+})({});a
